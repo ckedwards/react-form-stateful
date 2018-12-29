@@ -1,0 +1,74 @@
+{
+  "name": "react-stateful-form",
+  "sideEffects": false,
+  "version": "0.0.0",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest --env=jsdom",
+    "test:watch": "npm run test -- --watch",
+    "build": "cross-env NODE_ENV=production tsc -p tsconfig.base.json  && rollup -c && rimraf compiled && cp ./index.js ./dist/index.js"
+  },
+  "main": "dist/index.js",
+  "module": "dist/react-stateful-form.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=16.7.0-alpha.2",
+    "react-dom": ">=16.7.0-alpha.2"
+  },
+  "dependencies": {
+    "tslib": "^1.9.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@types/yup": "^0.26.3",
+    "@types/jest": "^22.2.3",
+    "cross-env": "5.0.5",
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "react-testing-library": "^5.4.2",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.66.4",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.1.8",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-size-snapshot": "^0.7.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-uglify": "^6.0.0",
+    "awesome-typescript-loader": "^3.4.1",
+    "babel-plugin-annotate-pure-calls": "^0.4.0",
+    "babel-plugin-dev-expression": "^0.2.1",
+    "typescript": "^3.2.1",
+    "@types/react": "^16.7.11",
+    "@types/react-dom": "^16.0.11",
+    "ts-jest": "^23.10.5",
+    "yup": "^0.26.6"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "semi": true,
+    "printWidth": 120
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testMatch": [
+      "<rootDir>/test/**/?(*.)(spec|test).ts?(x)"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ]
+  }
+}

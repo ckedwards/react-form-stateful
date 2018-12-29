@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StatefulForm> should initialize StatefulForm with expected state for useSFControl 1`] = `
+"{
+  \\"values\\": {
+    \\"test\\": \\"value\\"
+  },
+  \\"defaultValues\\": {
+    \\"test\\": \\"value2\\"
+  },
+  \\"validations\\": {},
+  \\"registered\\": {
+    \\"test\\": true
+  },
+  \\"errors\\": {
+    \\"test\\": {
+      \\"hasError\\": true,
+      \\"errorMessage\\": \\"Invalid\\"
+    }
+  },
+  \\"touched\\": {},
+  \\"submitable\\": false,
+  \\"isSubmitting\\": false,
+  \\"hasErrors\\": true,
+  \\"preserveData\\": false
+}"
+`;
+
+exports[`<StatefulForm> should initialize StatefulForm with expected state for useSFValue 1`] = `
+"{
+  \\"values\\": {
+    \\"test\\": \\"value\\"
+  },
+  \\"defaultValues\\": {
+    \\"test\\": \\"value2\\"
+  },
+  \\"validations\\": {},
+  \\"registered\\": {
+    \\"test\\": true
+  },
+  \\"errors\\": {
+    \\"test\\": {
+      \\"hasError\\": true,
+      \\"errorMessage\\": \\"Invalid\\"
+    }
+  },
+  \\"touched\\": {},
+  \\"submitable\\": false,
+  \\"isSubmitting\\": false,
+  \\"hasErrors\\": true,
+  \\"preserveData\\": false
+}"
+`;

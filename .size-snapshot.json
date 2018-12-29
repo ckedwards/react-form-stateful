@@ -1,0 +1,70 @@
+{
+  "./dist/react-statefull-form.umd.production.js": {
+    "bundled": 24289,
+    "minified": 9179,
+    "gzipped": 3010
+  },
+  "./dist/react-statefull-form.umd.development.js": {
+    "bundled": 24289,
+    "minified": 9179,
+    "gzipped": 3010
+  },
+  "./dist/react-statefull-form.cjs.production.js": {
+    "bundled": 21195,
+    "minified": 11436,
+    "gzipped": 3097
+  },
+  "./dist/react-statefull-form.cjs.development.js": {
+    "bundled": 21195,
+    "minified": 11436,
+    "gzipped": 3097
+  },
+  "dist/react-statefull-form.esm.js": {
+    "bundled": 19543,
+    "minified": 10843,
+    "gzipped": 3015,
+    "treeshaked": {
+      "rollup": {
+        "code": 52,
+        "import_statements": 52
+      },
+      "webpack": {
+        "code": 1045
+      }
+    }
+  },
+  "./dist/react-stateful-form.umd.production.js": {
+    "bundled": 23845,
+    "minified": 8996,
+    "gzipped": 2940
+  },
+  "./dist/react-stateful-form.umd.development.js": {
+    "bundled": 23845,
+    "minified": 8996,
+    "gzipped": 2940
+  },
+  "./dist/react-stateful-form.cjs.production.js": {
+    "bundled": 20795,
+    "minified": 11082,
+    "gzipped": 3023
+  },
+  "./dist/react-stateful-form.cjs.development.js": {
+    "bundled": 20795,
+    "minified": 11082,
+    "gzipped": 3023
+  },
+  "dist/react-stateful-form.esm.js": {
+    "bundled": 19174,
+    "minified": 10506,
+    "gzipped": 2945,
+    "treeshaked": {
+      "rollup": {
+        "code": 52,
+        "import_statements": 52
+      },
+      "webpack": {
+        "code": 1045
+      }
+    }
+  }
+}
