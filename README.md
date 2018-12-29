@@ -121,7 +121,7 @@ There are two special constants that help with extending the functionality of re
 #### NO_DEFAULT
 
 `NO_DEFAULT` prevents resets from affecting this value. Useful for hidden from values that are used to control validation.
-This us used in the advanced example [examples/pages/Pages](examples/pages/Pages.ts):
+This us used in the advanced example [examples/pages/Pages](examples/pages/Pages.tsx):
 
 ```tsx
 const valueState = useSFValue<number[]>(
