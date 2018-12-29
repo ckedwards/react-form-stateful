@@ -1,5 +1,5 @@
 {
-  "name": "react-stateful-form",
+  "name": "react-form-stateful",
   "sideEffects": false,
   "version": "0.0.1",
   "author": "",
@@ -11,7 +11,7 @@
     "prepublish": "npm run build"
   },
   "main": "dist/index.js",
-  "module": "dist/react-stateful-form.esm.js",
+  "module": "dist/react-form-stateful.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"

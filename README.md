@@ -1,13 +1,13 @@
-# react-stateful-form
+# react-form-stateful
 
-react-stateful-form a full featured, extensible form component for react using react hooks
+react-form-stateful a full featured, extensible form component for react using react hooks
 
 > **NOTE:** this project requires the use of an alpha version of react to use.
 
 ## Getting Started
 
 ```
-npm install --save react-stateful-form
+npm install --save react-form-stateful
 ```
 
 ## Examples
@@ -16,7 +16,7 @@ npm install --save react-stateful-form
 
 ```tsx
 import { FC } from 'react';
-import { StatefulForm, SFInput, SFSelect, SFTextArea } from 'react-stateful-form';
+import { StatefulForm, SFInput, SFSelect, SFTextArea } from 'react-form-stateful';
 import * as yup from 'yup';
 
 const ValidationSchemeForm: FC = () => {
@@ -96,7 +96,7 @@ Example Usage
 
 ```tsx
 import { FC, createElement } from 'react';
-import { StatefulForm, SFInput } from 'react-stateful-form';
+import { StatefulForm, SFInput } from 'react-form-stateful';
 
 const Form: FC = () => {
   return (
@@ -116,7 +116,7 @@ An example of this can be seen in examples/pages/Pages.tsx.
 
 ## NO_DEFAULT and ASYNC_VALIDATION
 
-There are two special constants that help with extending the functionality of react-stateful-form.
+There are two special constants that help with extending the functionality of react-form-stateful.
 
 #### NO_DEFAULT
 
