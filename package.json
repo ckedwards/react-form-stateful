@@ -1,7 +1,7 @@
 {
   "name": "react-stateful-form",
   "sideEffects": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "",
   "license": "ISC",
   "scripts": {
