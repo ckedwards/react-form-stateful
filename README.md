@@ -70,7 +70,7 @@ Context is used to expose the state. This allows for helper hooks to be written.
 
 ## Components
 
-One of the components from (components)[./src/controls.tsx]:
+One of the components from [components](./src/controls.tsx):
 
 ```tsx
 type SFControlProps<T = string> = {
