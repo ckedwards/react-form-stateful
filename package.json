@@ -7,7 +7,8 @@
   "scripts": {
     "test": "jest --env=jsdom",
     "test:watch": "npm run test -- --watch",
-    "build": "cross-env NODE_ENV=production tsc -p tsconfig.base.json  && rollup -c && rimraf compiled && cp ./index.js ./dist/index.js"
+    "build": "cross-env NODE_ENV=production tsc -p tsconfig.base.json  && rollup -c && rimraf compiled && cp ./index.js ./dist/index.js",
+    "prepublish": "npm run build"
   },
   "main": "dist/index.js",
   "module": "dist/react-stateful-form.esm.js",
