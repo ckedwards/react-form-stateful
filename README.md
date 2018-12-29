@@ -22,7 +22,7 @@ import * as yup from 'yup';
 const ValidationSchemeForm: FC = () => {
   return (
     <StatefulForm
-      validationScheme={yup.object().shape({
+      validationSchema={yup.object().shape({
         email: yup
           .string()
           .required('Email required')
