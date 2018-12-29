@@ -1,14 +1,15 @@
 {
   "name": "react-form-stateful",
   "sideEffects": false,
-  "version": "0.0.1",
-  "author": "",
-  "license": "ISC",
+  "version": "0.0.2",
+  "author": "Chris Edwards",
+  "repository": "ckedwards/react-form-stateful",
+  "license": "MIT",
   "scripts": {
     "test": "jest --env=jsdom",
     "test:watch": "npm run test -- --watch",
     "build": "cross-env NODE_ENV=production tsc -p tsconfig.base.json  && rollup -c && rimraf compiled && cp ./index.js ./dist/index.js",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build && npm run test"
   },
   "main": "dist/index.js",
   "module": "dist/react-form-stateful.esm.js",
