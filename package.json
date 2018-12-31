@@ -1,7 +1,14 @@
 {
+  "version": "0.0.3",
   "name": "react-form-stateful",
+  "description": "full featured, extensible form component for react using react hooks",
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks",
+    "form"
+  ],
   "sideEffects": false,
-  "version": "0.0.2",
   "author": "Chris Edwards",
   "repository": "ckedwards/react-form-stateful",
   "license": "MIT",
