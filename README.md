@@ -1,3 +1,5 @@
+**NOTE:** This was an expeiriment exporing hooks while hooks was still in aplha. I don't use this in any projects and I have no intention of maintianing this project.
+
 # react-form-stateful
 
 react-form-stateful a full featured, extensible form component for react using react hooks
